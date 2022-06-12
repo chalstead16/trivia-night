@@ -7,7 +7,8 @@ import Questions from '../Questions/Questions';
 import Categories from '../Categories/Categories';
 import { Route, Switch } from 'react-router-dom';
 import Game from '../Game/Game';
-import Header from '../Header/Header'
+import Header from '../Header/Header';
+import Error404 from '../Error404/Error404';
 import { QuestionDataType as QuestionDataType } from '../../utilities/utilities';
 import { LikedQuestion as LikedQuestion } from '../../utilities/utilities';
 import { CategoryFetch as CategoryFetch } from '../../utilities/utilities';
@@ -52,6 +53,9 @@ const App = () => {
           game={game} 
           removeFromGame={removeFromGame}
         />
+      </Route>
+      <Route>
+        <Error404 />
       </Route>
     </Switch>
     )
