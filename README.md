@@ -47,12 +47,12 @@ You will also see any lint errors in the console.
 
 ## Deployed Link
 
+[Trivia Night](https://trivia-nights.herokuapp.com/)
 
-## Future Addition
-- Incorporate Sass
-- A user can add their own questions
-- Sort questions by difficulty
-- Play a trivia game in app
+## Features
+- User can save questions to their game
+- User can remove questions from their game
+- Fully tested with Cypress
 
 ## Technologies Used
 - React.js
@@ -64,6 +64,19 @@ You will also see any lint errors in the console.
 - RESTful APIs
 - Figma
 - GitHub Projects & Issues
+
+## Goals
+- Clean and consistent React Architecture
+- Implementation of Typescript
+- Create a multi-page UX using Router
+- User flows tested with cypress
+- Project spec can be found [here](https://frontend.turing.edu/projects/module-3/stretch.html)
+
+### Future Additions
+- Incorporate Sass
+- A user can add their own questions
+- Sort questions by difficulty
+- Play a trivia game in app
 
 ### Contributors
 <table>
@@ -82,3 +95,4 @@ You will also see any lint errors in the console.
  <td><img src="https://avatars.githubusercontent.com/u/89258056?v=4" alt="Brenda Sotelo GitHub"
  width="150" height="auto" /></td>
 </table>
+
