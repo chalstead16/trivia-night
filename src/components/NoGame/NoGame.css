@@ -1,0 +1,11 @@
+.no-game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.no-game-container button {
+  margin-top: 10%;
+}

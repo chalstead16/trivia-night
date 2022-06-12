@@ -7,16 +7,16 @@ const GameQuestionCard = ({category, question, correctAnswer, incorrectAnswers, 
   return (
     <div className='game-card'>
       <h2>{category}</h2>
-      <h4>{question}</h4>
-      <p>CORRECT ANSWER: {correctAnswer}</p>
-      <p>INCORRECT ANSWERS: {incorrectAnswers.join(', ')}</p>
-      <p>DIFFICULTY: {difficulty}</p>
+      <p>{question}</p>
+      <p><b>Correct Answer</b>: {correctAnswer}</p>
+      <p><b>Incorrect Answers</b>: {incorrectAnswers.join(', ')}</p>
+      <p><b>Difficulty</b>: {difficulty}</p>
 
       <button
         className='delete-button'
         onClick={() => removeFromGame(id)}
       >
-        Remove From Game
+        X
       </button>
     </div>
   )
