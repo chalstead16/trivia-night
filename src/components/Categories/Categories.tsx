@@ -9,61 +9,57 @@ const Categories = ( { fetchCat }: CategoriesProp ) : JSX.Element => {
 
   return (
     <div className='button-container'>
-      <div className='top-row'>
-        <Link to='/questions'>
-          <button className='arts-and-literature'
+        <Link to='/questions' className='category'>
+          <button className='category-button'
           value={'arts_and_literature'}
           onClick={() => fetchCat('arts_and_literature')}>Arts & Literature</button>
         </Link>
-        <Link to='/questions'>
-          <button className='film-and-tv'
+        <Link to='/questions' className='category'>
+          <button className='category-button'
           value={'film_and_tv'}
           onClick={() => fetchCat('film_and_tv')}>Film & TV</button>
         </Link>
-        <Link to='/questions'>
-          <button className='food-and-drink'
+        <Link to='/questions' className='category'>
+          <button className='category-button'
           value={'food_and_drink'}
           onClick={() => fetchCat('food_and_drink')}>Food & Drink</button>
         </Link>
-        <Link to='/questions'>
-          <button className='general-knowledge'
+        <Link to='/questions' className='category'>
+          <button className='category-button'
           value={'general_knowledge'}
           onClick={() => fetchCat('general-knowledge')}>General Knowledge</button>
         </Link>
-        <Link to='/questions'>
-          <button className='geography'
+        <Link to='/questions' className='category'>
+          <button className='category-button'
           value={'geography'}
           onClick={() => fetchCat('geography')}>Geography</button>
         </Link>
-      </div>
-      <div className='lower-row'>
-        <Link to='/questions'>
-          <button className='history'
+        <Link to='/questions' className='category'>
+          <button className='category-button'
           value={'history'}
           onClick={() => fetchCat('history')}>History</button>
         </Link>
-        <Link to='/questions'>
-          <button className='music'
+        <Link to='/questions' className='category'>
+          <button className='category-button'
           value={'music'}
           onClick={() => fetchCat('music')}>Music</button>
         </Link>
-        <Link to='/questions'>
-          <button className='science'
+        <Link to='/questions' className='category'>
+          <button className='category-button'
           value={'science'}
           onClick={() => fetchCat('science')}>Science</button>
         </Link>
-        <Link to='/questions'>
-          <button className='society-and-culture'
+        <Link to='/questions' className='category'>
+          <button className='category-button'
           value={'society_and_culture'}
           onClick={() => fetchCat('society_and_culture')}>Society & Culture</button>
         </Link>
-        <Link to='/questions'>
-          <button className='sport-and-leisure'
+        <Link to='/questions' className='category'>
+          <button className='category-button'
           value={'sport_and_leisure'}
           onClick={() => fetchCat('sport_and_leisure')}>Sports & Leisure</button>
         </Link>
       </div>
-    </div>
   )
 }
 
