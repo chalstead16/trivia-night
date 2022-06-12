@@ -1,29 +1,47 @@
 body {
   height: 100%;
-  background-color: #003046;
 }
 
 .game-container {
-  height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 5%;
+  flex-wrap: wrap;
+  margin-left: 22em;
 }
 
 .game-card {
-  height: 10%;
-  width: 450px;
-  background-color: #025367;
-  border-radius: 4%;
-  padding: 0 1% 0 1%;
-  box-shadow: 6px 8px 10px #BABD8D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
   text-align: center;
+  border-radius: 5%;
+  padding: 0 1% 0 1%;
+  box-shadow: 6px 8px 10px lightgrey;
+  width: 455px;
+  background-color: whitesmoke;
+  margin: 3%;
 }
 
 .delete-button {
-  height: 50px;
-  width: 100px;
+  height: fit-content;
+  width: fit-content;
   box-shadow: none;
-  margin-bottom: 2%;
+  text-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 280px){
+  .game-container {
+    margin-left: 0em;
+    width: 100vw;
+    padding-bottom: 5%;
+  }
+  
+  .game-card {
+    min-width: 80%;
+  }
+
+  .delete-button {
+    width: 80%;
+  }
 }
