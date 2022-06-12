@@ -11,13 +11,12 @@ const Questions = ({ questionsProp, addToGame, removeFromGame }: QuestionsProps)
     }
 
     return (
-        <div className='questions-container' key={question.id}>
           <QuestionCard
             addToGame={addToGame}
             removeFromGame={removeFromGame}
+            key={question.id}
             {...question}
           />
-        </div>
     )
   })
 
