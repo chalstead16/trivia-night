@@ -27,8 +27,6 @@ Each time the user selects a category from the home view, the button sends the c
 - Component Architecture
 ![Screen Shot 2022-06-12 at 3 25 17 PM](https://user-images.githubusercontent.com/91504411/173252285-55293a02-0c5b-40ac-8ba0-205d73ad6e24.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ## Learning Goals
 
