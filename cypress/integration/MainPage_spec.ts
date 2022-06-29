@@ -5,8 +5,8 @@ describe('Main Page', () => {
       fixture: 'questions.json'
     }).as('something')
     cy.visit('http://localhost:3000/')
-    cy.get('*[class^="home"]')
-      .should('have.text', 'Home')
+    cy.get('*[class^="view-categories"]')
+      .should('have.text', 'Categories')
     cy.get('*[class^="view-game"]')
       .should('have.text', 'View Game')
     })

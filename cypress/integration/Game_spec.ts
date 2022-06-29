@@ -6,8 +6,8 @@ describe('Game Page', () => {
     }).as('something')
 
     cy.visit('http://localhost:3000/questions')
-    cy.get('*[class^="home"]')
-      .should('have.text', 'Home')
+    cy.get('*[class^="view-categories"]')
+      .should('have.text', 'Categories')
     cy.get('*[class^="view-game"]')
       .should('have.text', 'View Game')
     })
@@ -77,7 +77,7 @@ describe('Game Page', () => {
           cy.get('*[class^="view-game"]')
           .click({force: true})
           cy.get('*[class^="game-container"]')
-          .contains("Remove From Game")
+          .contains("X")
           .click({force: true})
       })
 

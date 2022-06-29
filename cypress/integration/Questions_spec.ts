@@ -6,8 +6,8 @@ describe('Questions Page', () => {
       fixture: 'questions.json'
     }).as('something')
     cy.visit('http://localhost:3000/questions')
-    cy.get('*[class^="home"]')
-      .should('have.text', 'Home')
+    cy.get('*[class^="view-categories"]')
+      .should('have.text', 'Categories')
     cy.get('*[class^="view-game"]')
       .should('have.text', 'View Game')
     })
@@ -51,7 +51,7 @@ describe('Questions Page', () => {
         cy.get('*[class^="arts-and-literature"]')
         .click({ force: true })
         cy.get('*[class^="questions-container"]')
-        .contains("Arthur C. ClarkeIsaac NewtonEnid Blyton")
+        .contains("Arthur C. Clarke, Isaac Newton, Enid Blyton")
     })
 
     it('should show the difficulty', () => {
@@ -75,7 +75,7 @@ describe('Questions Page', () => {
         cy.get('*[class^="arts-and-literature"]')
         .click({ force: true})
         cy.get('*[class^="like-button"]')
-          .should('have.text', "add to gameadd to game")
+          .should('have.text', "Add to GameAdd to Game")
     })
 
     it('should be able to save the question to their game', () => {

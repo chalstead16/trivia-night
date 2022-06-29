@@ -6,7 +6,7 @@ body {
   height: fit-content;
 }
 
-.category-button {
+#category-button {
   background-color: #CAD1C5;
   border: none;
   border-radius: .6em .6em;
