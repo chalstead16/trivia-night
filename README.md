@@ -25,7 +25,7 @@ Each time the user selects a category from the home view, the button sends the c
 - Wireframing with [Figma](https://www.figma.com/file/9MmFzIglKzplFHHwO0E7i0/Stretch-Tech---Trivia-Night?node-id=0%3A1)
 
 - Component Architecture
-![Screen Shot 2022-06-12 at 3 25 17 PM](https://user-images.githubusercontent.com/91504411/173252285-55293a02-0c5b-40ac-8ba0-205d73ad6e24.png)
+![Screen Shot 2022-06-29 at 3 39 45 PM](https://user-images.githubusercontent.com/91504411/176540461-49d57188-83c9-4352-9855-df902dfa7214.png)
 
 
 ## Learning Goals
