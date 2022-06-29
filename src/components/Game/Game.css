@@ -30,6 +30,13 @@ body {
   align-items: center;
 }
 
+@media screen and (min-width: 125em) {
+  .game-container {
+    margin-left: 30em;
+  }
+}
+
+
 @media screen and (max-width: 280px){
   .game-container {
     margin-left: 0em;

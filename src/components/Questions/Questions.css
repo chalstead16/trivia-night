@@ -4,3 +4,9 @@
   margin: 2%;
   margin-left: 20em;
 }
+
+@media screen and (min-width: 125em) {
+  .questions-container {
+    margin-left: 30em;
+  }
+}
