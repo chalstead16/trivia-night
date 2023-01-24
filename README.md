@@ -45,7 +45,7 @@ Each time the user selects a category from the home view, the button sends the c
 
 ## Deployed Link
 
-[Trivia Night](https://trivia-nights2111.herokuapp.com/)
+[Trivia Night](https://trivia-night.surge.sh/)
 
 ## Features
 - User can save questions to their game
